@@ -1,0 +1,36 @@
+@import "styles/config.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+/* font imported : montserrat, hind */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $c_main;
+    color: rgb(197, 197, 197);
+}
+
+
+a, span.highlight {
+    text-decoration: none;
+    color: $c_extra;
+    font-weight: bold;
+    &:hover {
+        color: $c_extra-sec;
+    }
+}
+
+
+a, p, li, ul, ol, span, div {
+    font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
